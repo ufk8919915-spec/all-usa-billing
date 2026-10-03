@@ -1,0 +1,297 @@
+{
+  "users": [
+    {
+      "id": "U-1",
+      "clinicId": "CLINIC-DEMO",
+      "email": "admin@allusabilling.local",
+      "name": "Billing Admin",
+      "role": "Administrator",
+      "passwordHash": "69a09a7925478bc6535a6545457854f8:afe1573c809a203fd21f3a803fbb6436e8246f3e13de388815ddf9d876ed7c0042db20c866904ed24d2f520464e101172e6008609df1b9cb4c16ebae4a82b4db"
+    }
+  ],
+  "patients": [
+    {
+      "id": "P-1001",
+      "firstName": "enc:v1:GZcDbyBsCIxwpO9pmUwNuZKr8IusB5QjVT0vkhSaYQ==",
+      "lastName": "enc:v1:5L8D/hh/GE2T1UmHx+S0OP28EwgUFDSsyKiX9Gl9AISA9RTM",
+      "dob": "enc:v1:LNI0dcVp2H1x7GrUFPr/5U3FcQ+7I7/m+UzJ8ReWE3bNNgx4SK8=",
+      "sex": "enc:v1:zI0nakuC0ycV4f9mqdw5D2vewGl0QkGw70pl6q4=",
+      "phone": "enc:v1:E4eSExGvMGwwm03yQ+MsYJ2B3z7KlEOMY+IkTnqXkDvopDxhQAgWwKY4",
+      "email": "enc:v1:Dw0yEgW6nL5lYaTjh23mYkKzaK9caALYgGem51BqHoeMgDsV+Bi3p05GbTxz2c/t6XaRAQ==",
+      "address": "enc:v1:BcVZbJcCeK/2DRZobb5iPr6tPlEbsEfKzQPNtIf3IVVxKX0xuhNtlpfzYpwQmJzaoVy/CCDCNw==",
+      "payer": "enc:v1:vDNRpGmuDoKAqEt+dHmOTfeRtoh6M5L7XvgwvOdr+YQpPqzvH/Yn6AXiRazEqAmdm0U=",
+      "memberId": "enc:v1:TLIB6yil1HtXKGsYlypt10FTNsP5+5VwBoQtsVCQGZw9IkKn",
+      "groupId": "enc:v1:4u4IdK9U3Thhi1QIBzOxglfyjk0Mpkf+iuDZnqKMrHN6",
+      "status": "Active",
+      "stripeCustomerId": null,
+      "autopayEnabled": false,
+      "defaultPaymentMethodId": null,
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "P-1002",
+      "firstName": "enc:v1:bze4ZuRrvDMotkeKpqvHjtjIbxmlREaNT7mEOWySJrI=",
+      "lastName": "enc:v1:rLIn2nbpQ/SxY4pNuVjmdtf/+QV5jub/4emQH+SOsW1cMA==",
+      "dob": "enc:v1:w+vJnD+F9T/MXe5fyAl4n0ex8VLSkrcf2HmTjQL4LOt2lEWfxX8=",
+      "sex": "enc:v1:rAc2Xcs6z1qB9grrqZTNaDBVyHo0PgS2YAKIMfo=",
+      "phone": "enc:v1:X3QfsHjkhslCqaI9EoX7AqCy+MPufhu7X61J497jNMkZp4RHYTjPjlsx",
+      "email": "enc:v1:PhkYMsevrhPyyK7naaPEW2P7Z5h+Ud14edGH/Gebn1YIVS7x99Za4oxfOQ2lnr0U3Ujm",
+      "address": "enc:v1:mNI2n5yT6EiZzF98/Sr/oqdkRKhP3SsrVbjS1vIkd+DsNEV4T3zsFGldowRlOoE9bR+nKlcn",
+      "payer": "enc:v1:KDWQDxuuifUlYlnZtQztkU2U14zFmfwBv++C+RJntC7+",
+      "memberId": "enc:v1:LQULZXxVnsoZh9TPiitEYgqxTFM/+GmBwUMOjBXfNq0/eaw=",
+      "groupId": "enc:v1:qEjAdR0tp8vOXa1LbzelnJiYUiGvDMjRw5oPcwQ5ZFRD",
+      "status": "Active",
+      "stripeCustomerId": null,
+      "autopayEnabled": false,
+      "defaultPaymentMethodId": null,
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "P-1003",
+      "firstName": "enc:v1:UBNJmbgzHVgyKv0Pz3FRlkMk4mVlGTsbArSlFJvbi2ubyw==",
+      "lastName": "enc:v1:2Ck++gWo1Xk11a2yXcaAldUPmCa9BokPpei1g0+vyCQ=",
+      "dob": "enc:v1:O18jrUmhIJRuRm69AY94MYfH5A/ryKKh6Ljp577J16xB5UKneAw=",
+      "sex": "enc:v1:4E0Kq/4wKQN9aWttJiMn2AscYF24Maa3FUooi9g=",
+      "phone": "enc:v1:et3d+LcOUE/4AIJcHp92y1DGkG7vr48g90O8EfIjrliCytM5luJnlqwa",
+      "email": "enc:v1:77t+8b3rEsRDnQfH1a0KNqvN1Yw1UCoKE6jk9ZudJF9E0XVig0QDep1w0fQKNuzZhkvn",
+      "address": "enc:v1:aepLWRm4ZHVyx4sgMoQYoSsviXXTeLKBSykQc5flNgzT5VVqPKm4pPKd5s9Q/JN9wcGUenQZffY=",
+      "payer": "enc:v1:ORHCF78ym9UVbpGP6qB+P76mgoPN9G5JuxBJB6HnLx060sWQnXDxhFLYi1k=",
+      "memberId": "enc:v1:TMEWyKxvLCJfVLElUpCFcS6zIuU0yVQw2MplbnN3Wt4tDqs=",
+      "groupId": "enc:v1:2EcWAD8Ew56j775oR9jvp/eI9ymBre0751ajPlqpRvhP",
+      "status": "Active",
+      "stripeCustomerId": null,
+      "autopayEnabled": false,
+      "defaultPaymentMethodId": null,
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "P-1004",
+      "firstName": "enc:v1:3wGSJ+4TZsKV6B6/AjEfudZsFI1KROF0SoCF5v0E+6g=",
+      "lastName": "enc:v1:iIyd/xM5uAIQ3nShuesXCZ6Y/TkEaJ2SLn8vQqFcJCfHng==",
+      "dob": "enc:v1:yEfKecUrDUU8Ea3vUu9cRw153YvNQ/FfjK3K76q0cetqQieaAg8=",
+      "sex": "enc:v1:jahm6F5P3QUq/yN6kuXtnYjz3yDCPHz+4PMLwAg=",
+      "phone": "enc:v1:BtgGb1xvvApNRcoEF9vZTmk7WLtRNRUk+nPaXhxt28cFq/t2eoRsxx8W",
+      "email": "enc:v1:U5ZvA+Edv+L2lfvYtA0Ho/7h65c9mwbwkKDuLbujK+Fs0IVSD7n/mBT+k/u+9BBcxsKz",
+      "address": "enc:v1:/xRzkvSxvB6abtL3RjAuD6+1z0jg1c4ydEn4eUILP/on513oo2bBFx/AkcrOdAbhip9/gw==",
+      "payer": "enc:v1:RTIo5Av0N80Gk4C5fCBMAZvsE9gXQ+Wc/cC+4xVrU/RMZZrB",
+      "memberId": "enc:v1:sO8IlKmAXnCcU9kho6GIc3KQVfO35hGDz5UpHHg0cTHuJQ==",
+      "groupId": "",
+      "status": "Active",
+      "stripeCustomerId": null,
+      "autopayEnabled": false,
+      "defaultPaymentMethodId": null,
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "A-001",
+      "patientId": "P-1001",
+      "date": "2026-10-03",
+      "time": "09:00",
+      "type": "Annual Wellness Visit",
+      "provider": "Dr. Jordan Lee",
+      "status": "Confirmed",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "A-002",
+      "patientId": "P-1002",
+      "date": "2026-10-03",
+      "time": "10:30",
+      "type": "Follow-up",
+      "provider": "Dr. Jordan Lee",
+      "status": "Confirmed",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "A-003",
+      "patientId": "P-1003",
+      "date": "2026-10-03",
+      "time": "13:00",
+      "type": "Office Visit",
+      "provider": "Dr. Jordan Lee",
+      "status": "Checked In",
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-10001",
+      "patientId": "P-1001",
+      "dos": "2026-10-03",
+      "payer": "Blue Cross Blue Shield",
+      "cpt": "G0439",
+      "icd10": "Z00.01",
+      "charge": 185,
+      "allowed": 165,
+      "insurancePaid": 165,
+      "patientResp": 0,
+      "status": "Paid",
+      "units": 1,
+      "modifier": "",
+      "place": "11",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "CLM-10002",
+      "patientId": "P-1002",
+      "dos": "2026-10-03",
+      "payer": "Aetna",
+      "cpt": "99213",
+      "icd10": "I10",
+      "charge": 125,
+      "allowed": 100,
+      "insurancePaid": 75,
+      "patientResp": 25,
+      "status": "Paid",
+      "units": 1,
+      "modifier": "",
+      "place": "11",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "CLM-10003",
+      "patientId": "P-1003",
+      "dos": "2026-10-03",
+      "payer": "UnitedHealthcare",
+      "cpt": "99214",
+      "icd10": "E11.9",
+      "charge": 165,
+      "allowed": 0,
+      "insurancePaid": 0,
+      "patientResp": 35,
+      "status": "Denied",
+      "units": 1,
+      "modifier": "",
+      "place": "11",
+      "denial": "Procedure code not covered for reported diagnosis",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "CLM-10004",
+      "patientId": "P-1004",
+      "dos": "2026-10-03",
+      "payer": "Medicare",
+      "cpt": "99213",
+      "icd10": "M54.5",
+      "charge": 120,
+      "allowed": 95,
+      "insurancePaid": 0,
+      "patientResp": 20,
+      "status": "Submitted",
+      "units": 1,
+      "modifier": "25",
+      "place": "11",
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-001",
+      "claimId": "CLM-10001",
+      "date": "2026-10-03",
+      "method": "ERA/ACH",
+      "amount": 165,
+      "reference": "835-10001",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "PAY-002",
+      "claimId": "CLM-10002",
+      "date": "2026-10-03",
+      "method": "ERA/ACH",
+      "amount": 75,
+      "reference": "835-10002",
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "elig": [
+    {
+      "id": "EB-001",
+      "patientId": "P-1001",
+      "checkedAt": "2026-10-03",
+      "status": "Active",
+      "plan": "Blue Cross Blue Shield HMO",
+      "copay": 25,
+      "deductibleRemaining": 450,
+      "oopRemaining": 1200,
+      "source": "Portal",
+      "clinicId": "CLINIC-DEMO"
+    },
+    {
+      "id": "EB-002",
+      "patientId": "P-1002",
+      "checkedAt": "2026-10-03",
+      "status": "Active",
+      "plan": "Aetna PPO",
+      "copay": 30,
+      "deductibleRemaining": 800,
+      "oopRemaining": 1900,
+      "source": "Phone",
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "notes": [
+    {
+      "id": "N-001",
+      "patientId": "P-1001",
+      "createdAt": "2026-10-03T02:55:17.315Z",
+      "text": "Annual visit documentation reviewed.",
+      "clinicId": "CLINIC-DEMO"
+    }
+  ],
+  "audit": [
+    {
+      "id": "AUD-B4CA9D",
+      "at": "2026-10-03T02:55:17.367Z",
+      "action": "LOGIN",
+      "entity": "user",
+      "entityId": "U-1",
+      "phi": false,
+      "actorUserId": "U-1",
+      "clinicId": "CLINIC-DEMO",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "curl/8.10.1",
+      "details": "Successful login",
+      "prevHash": "GENESIS",
+      "hash": "641840debd169c7196f012b05963ad32eefa18ea1c403071abbef90aed644462"
+    },
+    {
+      "id": "AUD-4DD49F",
+      "at": "2026-10-03T02:55:17.380Z",
+      "action": "API_REQUEST",
+      "entity": "route",
+      "entityId": "/api/patients",
+      "phi": true,
+      "actorUserId": "U-1",
+      "clinicId": "CLINIC-DEMO",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "curl/8.10.1",
+      "details": "PHI-capable API request",
+      "prevHash": "641840debd169c7196f012b05963ad32eefa18ea1c403071abbef90aed644462",
+      "hash": "2ebfa4da9d80ec3c76f4241a513ee18dc6310869137e64d6a97a33ec09322ee8"
+    },
+    {
+      "id": "AUD-69E45E",
+      "at": "2026-10-03T02:55:17.380Z",
+      "action": "VIEW_LIST",
+      "entity": "patient",
+      "entityId": "*",
+      "phi": true,
+      "actorUserId": "U-1",
+      "clinicId": "CLINIC-DEMO",
+      "ip": "::ffff:127.0.0.1",
+      "userAgent": "curl/8.10.1",
+      "details": "Patient roster viewed",
+      "prevHash": "2ebfa4da9d80ec3c76f4241a513ee18dc6310869137e64d6a97a33ec09322ee8",
+      "hash": "0df1083a1b10674f4b7c175a83c4d9a1d17781fe9da5ecd84f0ed490036372f5"
+    }
+  ],
+  "stripeEvents": [],
+  "security": {
+    "encryption": "AES-256-GCM application-layer at rest",
+    "transport": "TLS 1.3 when HTTPS is configured",
+    "rls": "PostgreSQL policy in schema.sql"
+  }
+}
